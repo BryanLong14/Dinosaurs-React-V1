@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import './App.css';
+// import './App.css';
 import Footer from './components/Footer';
 import JobForm from './components/JobForm';
 import JobList from './components/JobList';
@@ -34,8 +34,9 @@ class App extends Component {
 
   render() {
       return (
+        <div>
+        <Header />
         <main>
-          <Header />
           <section>
             <h2>Job Listings</h2>
             <ul id='job-listings'>
@@ -46,8 +47,9 @@ class App extends Component {
             <h3>Add a Job</h3>
             <JobForm createJob={this.createJob} />
           </aside>
-          <Footer />
         </main>
+        <Footer />
+        </div>
       );
     }
   }
