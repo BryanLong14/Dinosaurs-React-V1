@@ -18,9 +18,14 @@
 
 ## Testing
 
-1. Run `npm install`.
-2. Host your app locally on port `8080`.
-3. Navigate to this folder and run `npm test`.
+1. Run `npm install`
+  <!-- in Version 1 folder -->
+2.  npm start (starts a React app)
+2. Host your app locally on port `8080`:
+  <!-- PORT=8080 npm start -->
+3. Navigate to this folder and run `npm test`
+  <!-- in version 1 folder  -->
+  <!-- ?npx cypress run -->
 
 #### Deployed Link
 

@@ -2,6 +2,6 @@ import React from "react";
 
 export default function Header() {
 return <header>
-  <img src="./assets/g-dino.png" alt="Dinosaur Fucking Logo" />
+  <img src="./assets/g-dino.png" alt="Dinosaur Big Ole' Logo" />
 </header>
 }

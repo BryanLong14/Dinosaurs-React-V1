@@ -22,7 +22,7 @@
 2. Host your app locally on port `8080`.
 3. Navigate to this folder and run `npm test`.
 
-#### Deployed Link https://dinos-react-v2-f3392.firebaseapp.com/
+#### Deployed Link https://arcane-ridge-85948.herokuapp.com/
 
 #### Framework of choice
 React
